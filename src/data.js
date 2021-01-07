@@ -7,7 +7,7 @@ export const data={
             image:'./images/p2.jpg',
             price:120,
             brand:'Nike',
-            rating:4.5,
+            rating:4,
             numReviews:10,
             description:'High Quality Product'
         },
@@ -29,7 +29,7 @@ export const data={
             image:'./images/p2.jpg',
             price:69,
             brand:'Puma',
-            rating:4.5,
+            rating:3.5,
             numReviews:5,
             description:'High Quality Product'
         },
@@ -40,7 +40,7 @@ export const data={
             image:'./images/p2.jpg',
             price:105,
             brand:'Nike',
-            rating:4.5,
+            rating:3,
             numReviews:8,
             description:'High Quality Product'
         },
@@ -51,7 +51,7 @@ export const data={
             image:'./images/p2.jpg',
             price:110,
             brand:'Adidas',
-            rating:4.5,
+            rating:2,
             numReviews:10,
             description:'High Quality Product'
         },
@@ -62,7 +62,7 @@ export const data={
             image:'./images/p2.jpg',
             price:120,
             brand:'Puma',
-            rating:4,
+            rating:1.6,
             numReviews:1,
             description:'High Quality Product'
         },
