@@ -6,7 +6,9 @@ export default function Product({product}){
     return(
         <>
           <div className="card">
-                                <a href="product.html"><img className="medium" src={product.image} alt="product"/></a>
+                                <a href="product.html">
+                                   <img className="medium" src={product.image} alt={product.name}/>
+                                </a>
                                 <div className="card-body">
                                                   <a href="#">
                                                       <h2>{product.name}</h2>  

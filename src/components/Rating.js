@@ -26,7 +26,8 @@ export default function Rating({rating,numReviews}) {
                            }>  
               </i>
              </span>
-             <span>{`${numReviews} Reviews`}</span>
+
+             <span className="numOfReviews">{`${numReviews} Reviews`}</span>
         </div>
     )
 }

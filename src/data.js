@@ -9,7 +9,8 @@ export const data={
             brand:'Nike',
             rating:4,
             numReviews:10,
-            description:'High Quality Product'
+            description:'High Quality Product',
+            countInStock:10
         },
         {
             _id:'2',
@@ -20,7 +21,8 @@ export const data={
             brand:'Adidas',
             rating:4.5,
             numReviews:10,
-            description:'High Quality Product'
+            description:'High Quality Product',
+            countInStock:20
         },
         {
             _id:'3',
@@ -31,7 +33,8 @@ export const data={
             brand:'Puma',
             rating:3.5,
             numReviews:5,
-            description:'High Quality Product'
+            description:'High Quality Product',
+            countInStock:50
         },
         {
             _id:'4',
@@ -42,7 +45,8 @@ export const data={
             brand:'Nike',
             rating:3,
             numReviews:8,
-            description:'High Quality Product'
+            description:'High Quality Product',
+            countInStock:80
         },
         {
             _id:'5',
@@ -51,9 +55,10 @@ export const data={
             image:'./images/p2.jpg',
             price:110,
             brand:'Adidas',
-            rating:2,
+            rating:3.2,
             numReviews:10,
-            description:'High Quality Product'
+            description:'High Quality Product',
+            countInStock:4
         },
         {
             _id:'6',
@@ -64,7 +69,8 @@ export const data={
             brand:'Puma',
             rating:1.6,
             numReviews:1,
-            description:'High Quality Product'
+            description:'High Quality Product',
+            countInStock:0
         },
     ]
 }
