@@ -20,8 +20,8 @@ export default function Product({product}){
                                                   <div className="price">
                                                       ${product.price}
                                                   </div>
-                                              </div>
-                                          </div>
+                                </div>
+         </div>
 
         </>
     );
