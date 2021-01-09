@@ -2,7 +2,8 @@ import React,{useState,useEffect} from 'react';
 //import  {data} from '../data';
 import Product from '../components/Product';
 import axios from 'axios';
-
+import LoadingBox from '../components/LoadingBox';
+import MessageBox from '../components/MessageBox';
 
 export default function HomeScreen() {
     const [products,setProducts]=useState([]);
@@ -30,8 +31,8 @@ export default function HomeScreen() {
 
     return (
         <>
-        {loading?(<h1>loading...</h1>)
-        :error?({error})
+        {loading?(<LoadingBox></LoadingBox>)
+        :error?(<MessageBox variant='danger'>{error}</MessageBox>)
         :(
             <div className="row center">
                 {
